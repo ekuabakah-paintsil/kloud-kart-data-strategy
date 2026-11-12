@@ -26,6 +26,3 @@
 
 
 Dates assume each hire starts at the beginning of their quarter. If one is late, that quarter’s dates move by the same delay
-
-
-
