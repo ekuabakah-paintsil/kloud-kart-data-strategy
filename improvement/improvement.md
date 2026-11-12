@@ -46,5 +46,7 @@ It took about 2 hours to build, in a spreadsheet tool Kloud Kart already uses, s
 
 The risk is that the register is only as good as Marketing’s logging. An export that never reaches the log is invisible. The Q2 outcome in the roadmap covers this by checking the log against the files on hand.
 
-**Still to confirm**: each owner must confirm their row on “Where data lives”, and until then the Summary shows them as not confirmed. The 90-day deadline in the sheet is the outer limit and matches the complaint, while the roadmap’s seven days is the target for the reports, and the time limit for routine requests needs confirming. The 30-day limit on keeping exports is an assumption, to be agreed with Marketing’s lead. Whether Marketing uses a separate email or SMS tool is also unconfirmed (row P8).
+**Still to confirm**: 
+
+Each owner must confirm their row on “Where data lives”, and until then the Summary shows them as not confirmed. The 90-day deadline in the sheet is the outer limit and matches the complaint, while the roadmap’s seven days is the target for the reports, and the time limit for routine requests needs confirming. The 30-day limit on keeping exports is an assumption, to be agreed with Marketing’s lead. Whether Marketing uses a separate email or SMS tool is also unconfirmed (row P8).
 
