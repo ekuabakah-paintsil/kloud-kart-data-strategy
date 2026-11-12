@@ -19,11 +19,15 @@ When the count is out of date, goods that have sold out still show as available 
 
 **Why I ranked them in this order**
 The risks are ranked according to their potential impact on the business and the urgency with which management should address them.
-a). Customer data governance and compliance: Potential regulatory and reputational consequences.
-b). Production database slowdown: Direct impact on the live shopping experience and potential sales.
-c). Inconsistent revenue reporting: Affects financial confidence and management decisions.
-d). Dependence on one developer: Creates operational risk and delays if the developer is unavailable.
-e). Outdated stock information: Can lead to overselling, refunds and customer dissatisfaction.
+1. **Customer data governance and compliance:** Potential regulatory and reputational consequences.
+
+2. **Production database slowdown:** Direct impact on the live shopping experience and potential sales.
+
+3. **Inconsistent revenue reporting:** Affects financial confidence and management decisions.
+
+4. **Dependence on one developer:** Creates operational risk and delays if the developer is unavailable.
+
+5. **Outdated stock information:** Can lead to overselling, refunds and customer dissatisfaction.
 The ranking reflects business risk, not simply the estimated cedi value of each issue. Some figures represent potential exposure rather than confirmed losses.
 
 **Assumptions**
