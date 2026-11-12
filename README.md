@@ -3,7 +3,9 @@
 A data strategy for Kloud Kart, an Accra e-commerce company: what to build first, who to hire, and why. Written for the DE01 lab (Foundations of Data Engineering and Data Science).
 
 **Author:** Ekua Micah Abakah-Paintsil
+
 **Status:** Work in progress
+
 **Year:** November 2026
 
 ## The situation
