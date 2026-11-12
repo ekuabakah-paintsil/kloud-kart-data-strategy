@@ -4,6 +4,7 @@ A data strategy for Kloud Kart, an Accra e-commerce company: what to build first
 
 **Author:** Ekua Micah Abakah-Paintsil
 **Status:** Work in progress
+**Year:** November 2026
 
 ## The situation
 
