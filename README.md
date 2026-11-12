@@ -2,7 +2,7 @@
 
 A data strategy for Kloud Kart, an Accra e-commerce company: what to build first, who to hire, and why. Written for the DE01 lab (Foundations of Data Engineering and Data Science).
 
-**Author:** [Your name]
+**Author:** Ekua Micah Abakah-Paintsil
 **Status:** Work in progress
 
 ## The situation
@@ -15,8 +15,8 @@ The task is not to design the perfect system. It is to decide what a company thi
 
 | File | What it is | Status |
 |---|---|---|
-| `diagnosis.md` | Five root causes, costed and ranked by business risk, with the questions I would have asked the client | Done |
-| `recommendation.md` | The architecture and processing position, who to hire, and what it costs to run (two pages) | Done |
+| `Situation Diagnosis.md` | Five root causes, costed and ranked by business risk, with the questions I would have asked the client | Done |
+| `Recommendation.md` | The architecture and processing position, who to hire, and what it costs to run (two pages) | Done |
 | `roadmap.md` | A one-page, 12-month plan in four quarters, written as outcomes the client can check herself | Done |
 | `decisions/` | Five decision records, each with a real rejected alternative | Done |
 | `improvement.md` | One improvement beyond the brief, built | In progress |
@@ -63,4 +63,4 @@ The brief gives no figures for order value, staff cost or how often overselling 
 ## Notes
 
 - Kloud Kart is a case study. No real customer data was used or is stored here.
-- [Add one line on how you used an assistant, as the course asks you to declare.]
+- An assistant was used to polish the English and explain concepts for easy understanding
