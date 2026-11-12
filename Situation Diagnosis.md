@@ -19,23 +19,24 @@ When the count is out of date, goods that have sold out still show as available 
 
 **Why I ranked them in this order**
 The risks are ranked according to their potential impact on the business and the urgency with which management should address them.
-a) Customer data governance and compliance: Potential regulatory and reputational consequences.
-b) Production database slowdown: Direct impact on the live shopping experience and potential sales.
-c) Inconsistent revenue reporting: Affects financial confidence and management decisions.
-d) Outdated stock information: Can lead to overselling, refunds and customer dissatisfaction.
-e) Dependence on one developer: Creates operational risk and delays if the developer is unavailable.
+a). Customer data governance and compliance: Potential regulatory and reputational consequences.
+b). Production database slowdown: Direct impact on the live shopping experience and potential sales.
+c). Inconsistent revenue reporting: Affects financial confidence and management decisions.
+d). Dependence on one developer: Creates operational risk and delays if the developer is unavailable.
+e). Outdated stock information: Can lead to overselling, refunds and customer dissatisfaction.
 The ranking reflects business risk, not simply the estimated cedi value of each issue. Some figures represent potential exposure rather than confirmed losses.
 
 **Assumptions**
 The brief does not provide actual figures for every issue. The following assumptions were used to estimate possible costs:
-        Area	                            Assumption
-- Average orders	        250 orders per hour, based on 4,000 orders across 16 hours
-- Average order value	        GHS 200
-- Website slowdown	        30 minutes, with 20% of affected customers leaving
-- Slowdown frequency	        Twice a month
-- Staff hourly cost	        GHS 120
-- Stock discrepancies	        40 affected orders monthly, valued at GHS 100 each
-- Developer replacement	        Three months of disruption
+  | Area | Assumption |
+|---|---|
+| Average orders | 250 orders per hour, based on 4,000 orders across 16 hours |
+| Average order value | GHS 200 |
+| Website slowdown | 30 minutes, with 20% of affected customers leaving |
+| Slowdown frequency | Twice a month |
+| Staff hourly cost | GHS 120 |
+| Stock discrepancies | 40 affected orders monthly, valued at GHS 100 each |
+| Developer replacement | Three months of disruption |
 
 These estimates should be treated as indicative figures, not confirmed company losses.
 
