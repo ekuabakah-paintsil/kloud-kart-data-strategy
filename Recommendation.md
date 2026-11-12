@@ -22,8 +22,3 @@ The second server is already approved, so the main running costs are the two sal
 
 **What would change this**
 A cloud warehouse is fair in that it needs less upkeep, and the developer wants one. It was not chosen because its cost grows with use, I could not verify a price, and it would put a second copy of customer data in a system Kloud Kart does not run. The investors are also right that stock must be fresh, and this is met by reading it live. This position would change if the database is nearing 200GB, the daily job finishes late, Nigeria’s volume breaks the growth assumption, oversold orders do not fall once the monthly count begins, or the developer cannot help set up the read replica within about four weeks, in which case the Analytics Engineer would be hired first.
-
-
-
-
-
