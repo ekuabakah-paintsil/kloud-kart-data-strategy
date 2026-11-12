@@ -18,6 +18,7 @@ The only developer works in PHP and MySQL. Nobody on the team has run a warehous
 When the count is out of date, goods that have sold out still show as available on the live shop, and the customer buys something Kloud Kart does not have. The brief says this is how the company oversells, but it does not say how often it happens. The cost to Kloud Kart is having to refund all affected customers, the support time spent on them, and the loss of sales as well. At 40 oversold orders a month and GHS 100 each, that is GHS 48,000 a year.
 
 **Why I ranked them in this order**
+
 The risks are ranked according to their potential impact on the business and the urgency with which management should address them.
 1. **Customer data governance and compliance:** Potential regulatory and reputational consequences.
 
@@ -31,6 +32,7 @@ The risks are ranked according to their potential impact on the business and the
 The ranking reflects business risk, not simply the estimated cedi value of each issue. Some figures represent potential exposure rather than confirmed losses.
 
 **Assumptions**
+
 The brief does not provide actual figures for every issue. The following assumptions were used to estimate possible costs:
   | Area | Assumption |
 |---|---|
