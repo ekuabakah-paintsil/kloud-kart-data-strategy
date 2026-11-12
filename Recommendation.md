@@ -1,0 +1,29 @@
+**Recommendation**
+
+**Architecture**
+It is recommended that Kloud Kart adopts a data warehouse architecture rather than a data lake or a lakehouse. A data warehouse is a separate database built for reporting, so that questions about the business no longer compete with customers for the shop’s machine. Mainly because, Kloud Kart’s data is about 40GB and entirely structured, the company ships about 4,000 orders a day, and the questions it needs answered (revenue, stock and retention) are already known. At the current growth of 15 to 20% a year, the data would take roughly 9 to 12 years to reach 200GB, which is the point at which we would review the plan, so one server is enough for now. A second server is already approved, so the warehouse will sit there.
+
+It is fed by a read replica, which is a live copy of the shop’s database that updates itself. A daily scheduled job reads from the replica and not from the shop, so the Monday export no longer slows down the live shop, and it builds tables with agreed definitions, including one definition of revenue. Nana and Finance read those tables instead of exporting. The price we accept is that the replica is one more thing to watch, it can run a little behind, and it still holds customers’ names and phone numbers, so the first copy should be made at a quiet hour. The Data Engineer will own it.
+
+The agreed tables hold only an approved list of fields, so names, phone numbers, emails and addresses are left out. This reduces the exposure of Kloud Kart to penalties under the Data Protection Act, 2012 (Act 843), and a customer deleted in the shop will be gone from the reports by the next morning. A data lake or lakehouse would hold the raw data as it is, which is harder to find and delete within the 90 days Kloud Kart has to respond to the complaint. A lakehouse would also only be worth it if machine learning were in scope, and that is just an “eventually” wish.
+
+**Processing Approach**
+The recommended processing approach is daily batch processing for everything. There is no need for live figures at every point in time, as these figures are used for periodic reporting and historical data analysis. Stock counts are the only figure that cannot go stale, but this does not need streaming. The shop already holds the true stock count in the live database, so the shop and Nana’s reorder view will read it from there directly, with one small and limited lookup. Streaming stock into the warehouse would not change what customers see on the shop, because the shop reads its own stock figure and not the warehouse’s. Streaming would also add parts that batch does not have, such as a duplicated event taking stock down twice, and an on-call burden for two hires who also have to keep the shop up. Streaming is therefore not needed anywhere. The price we accept is that the live database serves two kinds of stock readers, which the Data Engineer will have to watch. Overselling costs Kloud Kart money in refunds and damages its reputation, so the Monday report counts oversold orders every month to show whether this is working.
+
+**Who we hire**
+It is also recommended that a Data Engineer and an Analytics Engineer be hired, one after the other. As it is stated in the module, always stop the bleeding first, hence the Data Engineer should be hired first. The Data Engineer is responsible for the movement, storage, reliability and access of the data. By day 90, Nana should be opening her Monday report without an export and without the shop slowing down. There should be a record of where copies of customer data sit, an approved list of fields and the export log, and the mechanics of deleting everywhere should have been tested on an invented customer. The presence of the Data Engineer will also lift the burden of the data work that rests on the shoulders of the single developer, who should be able to run it from written notes.
+
+The Data Engineer builds and runs the controls for the Data Protection Act, but the decisions belong to Kloud Kart. A named person at Kloud Kart (Nana) will own the registration with the Data Protection Commission, checked in the first three months, and the decisions on what customer data is kept.
+
+The Analytics Engineer should be hired after the Data Engineer, because the Analytics Engineer depends on the data loaded by the Data Engineer. The Analytics Engineer is responsible for bringing together data sources in a way that makes it possible to drive consolidated insights, so that everyone can use the same clean, clearly modelled tables to answer questions on an ongoing basis, and two teams do not compute things differently. By day 90, the one-page definition of revenue, signed by Nana and Finance before the Analytics Engineer starts, is built into the Monday report, and both quote the same figure. The cost of this order is that Nana waits about a quarter longer for a matching report, and signing the definition before the Analytics Engineer starts softens this.
+
+**What it costs to run**
+The second server is already approved, so the main running costs are the two salaries and one reporting tool, which is the software Nana opens to see her figures plus the Data Engineer’s time to watch the read replica and the daily job.
+
+**What would change this**
+A cloud warehouse is fair in that it needs less upkeep, and the developer wants one. It was not chosen because its cost grows with use, I could not verify a price, and it would put a second copy of customer data in a system Kloud Kart does not run. The investors are also right that stock must be fresh, and this is met by reading it live. This position would change if the database is nearing 200GB, the daily job finishes late, Nigeria’s volume breaks the growth assumption, oversold orders do not fall once the monthly count begins, or the developer cannot help set up the read replica within about four weeks, in which case the Analytics Engineer would be hired first.
+
+
+
+
+
