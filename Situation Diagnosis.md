@@ -8,7 +8,7 @@ Because of this, there are multiple copies of untracked customer data containing
 
 2. **Monday CSV exports slow down the live shop**
    
-The export and the customers’ orders use the same machine, so they compete for it. As a result, there is a drop in sales during those slow hours, as customers struggle to place their orders and some who start the process do not return to complete it. This causes a direct loss of sales to Kloud Kart. Each slowdown loses about 25 orders (250 orders an hour × 0.5 hour × 20% who leave). At 24 slowdowns a year that is about 600 orders, or GHS 120,000 in sales at GHS 200 an order.
+The export and the customers’ orders use the same machine, so they compete for it. As a result, there is a drop in sales during those slow hours, as customers struggle to place their orders and some who start the process do not return to complete it. This causes a direct loss of sales to Kloud Kart. Each slowdown loses about 25 orders (250 orders an hour × 0.5 hour × 20% who leave). At 24 slowdowns a year that is about 600 orders, or GHS 120,000 in gross sales at GHS 200 an order, which equals GHS 30,000 in direct lost gross profit at an assumed 25% margin.
 
 3. **No standardised revenue definition**
    
@@ -16,7 +16,7 @@ There is currently no agreed standardized definition on how to calculate “reve
 
 4. **One developer with no data engineering support**
    
-The only developer works in PHP and MySQL. Nobody on the team has run a warehouse or written Python professionally, so all data work falls on him on top of keeping the live shop running. As a result of this, every export and every data request waits for him, and each one competes with his work on the shop. Should this one developer leave, data work would stop until a replacement is found and has learned the system, and the upkeep of the live shop would be at risk as well. The cost to Kloud Kart is about three months of stalled data work, at his monthly cost, a month, plus any sales lost while fixes wait.
+The only developer works in PHP and MySQL. Nobody on the team has run a warehouse or written Python professionally, so all data work falls on him on top of keeping the live shop running. As a result of this, every export and every data request waits for him, and each one competes with his work on the shop. Should this one developer leave, data work would stop until a replacement is found and has learned the system, and the upkeep of the live shop would be at risk as well. The cost to Kloud Kart is about three months of stalled data work, estimated at GHS 30,000 (three months at an assumed developer salary of GHS 10,000 a month) plus any sales lost while fixes wait.
 
 5. **Stock information is not reliably kept current**
    
@@ -45,9 +45,12 @@ The brief does not provide actual figures for every issue. The following assumpt
 | Average order value | GHS 200 |
 | Website slowdown | 30 minutes, with 20% of affected customers leaving |
 | Slowdown frequency | Twice a month |
+| Gross margin | 25% on gross order value |
 | Staff hourly cost | GHS 120 |
 | Stock discrepancies | 40 affected orders monthly, valued at GHS 100 each |
 | Developer replacement | Three months of disruption |
+| Developer monthly cost | GHS 10,000 per month (GHS 30,000 over three months)z |
+
 
 These estimates should be treated as indicative figures, not confirmed company losses.
 
