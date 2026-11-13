@@ -22,7 +22,7 @@ The task is not to design the perfect system. It is to decide what a company thi
 | `Recommendation.md` | The architecture and processing position, who to hire, and what it costs to run (two pages) | Done |
 | `roadmap.md` | A one-page, 12-month plan in four quarters, written as outcomes the client can check herself | Done |
 | `decisions/` | Five decision records, each with a real rejected alternative | Done |
-| `improvement.md` | One improvement beyond the brief, built | In progress |
+| `improvement.md` | One improvement beyond the brief, built | Done |
 | `deck/` | The board presentation | In progress |
 
 ## The recommendation in brief
