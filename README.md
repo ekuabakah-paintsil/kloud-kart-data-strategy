@@ -2,12 +2,6 @@
 
 A data strategy for Kloud Kart, an Accra e-commerce company: what to build first, who to hire, and why. Written for the DE01 lab (Foundations of Data Engineering and Data Science).
 
-**Author:** Ekua Micah Abakah-Paintsil
-
-**Status:** Work in progress
-
-**Year:** November 2026
-
 ## The situation
 
 Kloud Kart is three years old and ships about 4,000 orders a day, with a pilot in Nigeria. Orders, inventory and customer accounts all sit in one database on the same machine as the live shop, about 40GB in total. The Head of Operations rebuilds Monday's numbers by hand from exports, and Finance's figures never match hers. Marketing's customer list is copied with no record of the copies. Twice last month a Monday export slowed the shop to a crawl. The company has just raised funding, the board has budgeted two data hires, and a customer complaint about deleted data has a 90-day deadline.
@@ -67,3 +61,10 @@ The brief gives no figures for order value, staff cost or how often overselling 
 
 - Kloud Kart is a case study. No real customer data was used or is stored here.
 - An assistant was used to polish the English and explain concepts for easy understanding
+
+
+**Author:** Ekua Micah Abakah-Paintsil
+
+**Status:** Work in progress
+
+**Year:** November 2026
