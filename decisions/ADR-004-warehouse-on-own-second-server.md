@@ -30,7 +30,7 @@ A read replica of the shop's database on the second server, plus agreed reportin
 
 - **What this buys:** Reports stop touching the shop, the only new money is tooling, and the two hires can own what they run.
 - **What this costs:** One more server to patch and monitor, replication to watch, a second copy of customer data, and the maintenance sits with us.
-- **What it costs the client if I am wrong:** If growth outruns one server (exapmple; a Nigeria surge), the overnight job finishes late and Nana has no Monday report until we migrate.
+- **What it costs the client if I am wrong:** If growth outruns one server (example; a Nigeria surge), the overnight job finishes late and Nana has no Monday report until we migrate.
 - **What would make me revisit this:** The database nearing 200 GB, the overnight job not finishing by 06:00, Nigeria volume breaking the growth assumption, or the developer unable to set up the copy within about four weeks.
 
 ## What this survives
