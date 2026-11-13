@@ -17,7 +17,7 @@ The task is not to design the perfect system. It is to decide what a company thi
 | `roadmap.md` | A one-page, 12-month plan in four quarters, written as outcomes the client can check herself | Done |
 | `decisions/` | Five decision records, each with a real rejected alternative | Done |
 | `improvement.md` | One improvement beyond the brief, built | Done |
-| `deck/` | The board presentation | In progress |
+| `deck/` | The board presentation | Done |
 
 ## The recommendation in brief
 
@@ -65,6 +65,6 @@ The brief gives no figures for order value, staff cost or how often overselling 
 
 **Author:** Ekua Micah Abakah-Paintsil
 
-**Status:** Work in progress
+**Status:** Done
 
 **Year:** November 2026
